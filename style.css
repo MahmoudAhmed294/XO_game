@@ -1,0 +1,171 @@
+.X_class {
+  border: 10px #e43a19 solid !important;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  background-image: url("img/icons8_multiply_64px.png");
+  background-position: center;
+  background-size: 90px 90px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  background-color: #f2f4f7;
+  margin: 20px;
+}
+
+.O_class {
+  border: 10px #111f4d solid !important;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  background-image: url("img/icons8_circle_60px_2.png");
+  background-position: center;
+  background-size: 80px 80px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  background-color: #f2f4f7;
+  margin: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.container .Win_player1 {
+  text-align: center;
+  color: #111f4d;
+  display: none;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+}
+
+.container .Win_player2 {
+  display: none;
+  text-align: center;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+  color: #e43a19;
+}
+
+.container .row {
+  width: 470px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.container .row input {
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.winner_o {
+  border: 10px #e43a19 solid !important;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  background-image: url("img/O_winner.png");
+  background-position: center;
+  background-size: 80px 80px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  background-color: #e43a19;
+  margin: 20px;
+}
+
+.winner_x {
+  border: 10px #111f4d solid !important;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  background-image: url("img/X_winner.png");
+  background-position: center;
+  background-size: 80px 80px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  background-color: #111f4d;
+  margin: 20px;
+}
+
+.winner {
+  top: 77px;
+  position: absolute;
+  left: 40px;
+}
+
+.winner .player_1_count_win {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #111f4d;
+  top: 150px;
+}
+
+.winner .player_1_count_win .content {
+  position: relative;
+  left: 21px;
+  top: 10px;
+}
+
+.winner .player_1_count_win .content h2 {
+  color: #e43a19 !important;
+}
+
+.winner .player_1_count_win .content .border-0 {
+  background-color: transparent;
+  border: none;
+  color: #e43a19;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  width: 63%;
+}
+
+.winner .player_2_count_win {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #e43a19;
+  top: 300px;
+}
+
+.winner .player_2_count_win .content {
+  position: relative;
+  left: 21px;
+  top: 10px;
+}
+
+.winner .player_2_count_win .content h2 {
+  color: #111f4d !important;
+}
+
+.winner .player_2_count_win .content .border-0 {
+  background-color: transparent;
+  border: none;
+  color: #111f4d;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  width: 63%;
+}
+
+.winner .newGame .border-0 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #020205;
+  color: white;
+  font-size: 20px;
+  top: 0;
+}
+/*# sourceMappingURL=style.css.map */

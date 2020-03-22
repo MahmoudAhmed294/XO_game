@@ -1,0 +1,212 @@
+
+$color1:#111f4d; // o color 
+$color2:#f2f4f7; //background color
+$color3:#e43a19;  //x color
+$color4:#020205;   //font
+
+.X_class{
+border: 10px $color3 solid !important;
+border-radius: 5px;
+padding: 20px;
+width: 100px;
+height: 100px;
+background-image: url('img/icons8_multiply_64px.png');
+background-position: center;
+background-size: 90px 90px;
+transition: ease 0.5s;
+background-color: $color2;
+margin: 20px;
+}
+
+
+.O_class{
+    border: 10px $color1 solid !important;
+border-radius: 5px;
+padding: 20px;
+width: 100px;
+height: 100px;
+background-image: url('img/icons8_circle_60px_2.png');
+background-position: center;
+background-size: 80px 80px;
+transition: ease 0.5s;
+background-color: $color2;
+margin: 20px;
+
+
+}
+%hover_O{
+    border: 10px $color1 solid;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url('img/icons8_circle_60px_2.png');
+    background-position: center;
+    background-size: 80px 80px;
+    transition: ease 0.2s;
+    background-color: $color2;
+    margin: 20px;
+    opacity: 0.5;
+    
+}
+%hover_X{
+
+    border: 10px $color1 solid;
+border-radius: 5px;
+padding: 20px;
+width: 100px;
+height: 100px;
+background-image: url('img/icons8_circle_60px_2.png');
+background-position: center;
+background-size: 80px 80px;
+transition: ease 0.2s;
+background-color: $color2;
+margin: 20px;
+opacity: 0.5;
+
+
+
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+.Win_player1{
+    text-align: center;
+    color: $color1;
+    display: none ;
+    transition: ease-in 0.5s;
+
+}
+.Win_player2{
+    display: none ;
+    text-align: center;
+    transition: ease-in 0.5s;
+    color: $color3;
+
+}
+
+.row{
+    width: 470px; 
+    margin: 0 auto;
+    margin-top: 50px;
+input{
+        border: none;
+border-radius: 5px;
+padding: 20px;
+width: 100px;
+height: 100px;
+margin: 20px;
+// &:hover{
+//     @extend %hover_X;
+// }
+}
+}
+}
+.winner_o{
+    border: 10px $color3 solid !important;
+border-radius: 5px;
+padding: 20px;
+width: 100px;
+height: 100px;
+background-image: url('img/O_winner.png');
+background-position: center;
+background-size: 80px 80px;
+transition: ease 0.5s;
+background-color: $color3;
+margin: 20px;
+
+
+}
+.winner_x{
+    border: 10px $color1 solid !important;
+border-radius: 5px;
+padding: 20px;
+width: 100px;
+height: 100px;
+background-image: url('img/X_winner.png');
+background-position: center;
+background-size: 80px 80px;
+transition: ease 0.5s;
+background-color: $color1;
+margin: 20px;
+
+
+}
+.winner{
+    top: 77px;
+    position: absolute;
+    left: 40px;
+
+
+
+    .player_1_count_win{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: $color1;
+        top: 150px;
+        .content{
+position: relative;
+left: 21px;
+top: 10px;
+            h2{
+                color: $color3 !important;
+            }
+            .border-0{
+                background-color: transparent;
+                border: none;
+                color: $color3;
+                font-size: 20px;
+                font-weight: 700;
+                text-align: center;
+                width: 63%;
+                
+                
+            }
+        }
+        
+    }
+            .player_2_count_win{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: $color3;
+        top: 300px;
+        .content{
+position: relative;
+left: 21px;
+top: 10px;
+            h2{
+                color: $color1 !important;
+            }
+            .border-0{
+                background-color: transparent;
+                border: none;
+                color: $color1;
+                font-size: 20px;
+                font-weight: 700;
+                text-align: center;
+                width: 63%;
+                
+                
+            }
+            }
+        
+    }
+    .newGame{
+        .border-0{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: $color4;
+            color: white;
+            font-size: 20px;
+
+            top: 0;
+    
+        }
+    }
+}
